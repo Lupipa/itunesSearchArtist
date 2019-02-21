@@ -1,0 +1,97 @@
+@charset "utf-8";
+body{
+    background-color: rgb(215, 219, 223);
+}
+.container{
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 100%;
+    height: 8%;
+    max-width: 900px;
+    border-radius: 20px;
+    align-items: center;
+    align-self: flex-end;
+    display: flex; /* 2 ITEMS MINIMUM */
+    background-color: rgb(126, 126, 126);
+}
+input#search{
+    border: 0;
+    padding: 2;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    width: 70%;
+    height: 80%;
+    font: 250% Arial;
+    text-align: center;
+}
+.icon-buttons{
+    border: 0;
+    padding: 2;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 8%;
+    height: 75%;
+    /*Transparent --> for icons .png*/
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+button#btn-search{
+    margin-left: 5%;
+}
+button#btn-favsSong{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+div#results{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.card-container{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    border-radius: 10px;
+    width: 420px;
+    height: 600px;
+    background-color: rgb(250, 250, 250);
+
+    align-content: center;
+    text-align: center;
+}
+.card{
+    background-color: rgb(253, 253, 253);
+}
+.heartButton{
+    margin-left: 80%;
+    margin-bottom: 0;
+    padding: 0;
+    width: 20%;
+    height: 12%;
+    align-content: center;
+    /*Transparent --> for icons .png*/
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+img {
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h2{
+    font-size: 200%;
+}
+p{
+    font-size: 150%;
+}
